@@ -16,3 +16,5 @@ curs.execute(sql)
 
 data = curs.fetchone()
 print(data)
+
+conn.close()
