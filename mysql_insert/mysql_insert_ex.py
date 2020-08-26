@@ -1,7 +1,7 @@
 import pymysql
 
 ### Database connect ###
-conn = pymysql.connect(host='127.0.0.1', user='test', password='george7790',
+conn = pymysql.connect(host='127.0.0.1', user='test', password='',
         db='test_db', charset='utf8')
 ### get Cursor ###
 curs = conn.cursor()
